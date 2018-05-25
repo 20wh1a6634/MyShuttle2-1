@@ -1,4 +1,4 @@
-FROM mysql
+FROM mysql:5.7.22
 
 ENV MYSQL_RANDOM_ROOT_PASSWORD="yes"
 # this is meant for debugging only - DO NOT use in production!
